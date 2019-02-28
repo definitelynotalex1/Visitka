@@ -1,0 +1,41 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #1f1f21;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+#yourscore{
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    text-align: center;
+    
+}
+div{
+    display: inline;
+}
+#pepe{
+    visibility: hidden;
+    width: 10%;
+    position: absolute;
+    top: 70%;
+    left: 42%;
+    text-align: center;
+    animation: spin 5s infinite linear;
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}

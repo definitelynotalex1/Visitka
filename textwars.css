@@ -1,0 +1,18 @@
+.code{
+    color: #2bb1d5;
+    font-weight: bold;
+    display: inline-block;
+}
+.warn{
+    font-size: 14pt;
+    color: #e43535;
+    font-weight: bold;
+    display: inline-block;
+}
+b{
+    color: #ffa500;
+}
+h3{
+    color: #25d36a;
+    font-weight: bold;
+}

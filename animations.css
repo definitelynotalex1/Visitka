@@ -1,0 +1,19 @@
+
+.animate{
+    animation: slidein 3s;
+}
+@keyframes slidein {
+  0% {
+    margin-left: 0px;
+  }
+  20% {
+    margin-left: 4000px;
+    opacity: 0.4;
+    width: 20%;
+    }
+  50%{
+    margin: 0;
+    opacity: 1;
+    width: 0%;
+    }
+}

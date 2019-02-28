@@ -1,0 +1,51 @@
+body{
+    align-content: center;
+}
+#question{
+    text-align: center;
+}
+.button{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 30px;
+    z-index: 1;
+    text-align: center;
+}
+#score{
+    text-align: center;
+}
+#numq{
+    margin-top: 15px;
+    text-align: center;
+}
+#numqfield{
+    display: inline;
+}
+#scorefield{
+    display: inline;
+}
+.button:hover{
+	animation: rgb 8s linear infinite;
+    cursor: pointer;
+}
+.bad{
+    color: firebrick;
+    display: inline;
+}
+.normal{
+    color: darkorange;
+    display: inline;
+}
+.good{
+    color: forestgreen;
+    display: inline;
+}
+.perfect{
+    color: aqua;
+    display: inline;
+}
